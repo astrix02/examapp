@@ -1,0 +1,9 @@
+com/crud/service/ProductServiceImpl.class
+com/crud/repository/ProductRepository.class
+com/crud/service/ProductService.class
+com/crud/config/RabbitMQConfig.class
+com/crud/controller/ProductController.class
+com/crud/exception/ResourceNotFoundException.class
+com/crud/publisher/RabbitMQProducer.class
+com/crud/model/Product.class
+com/crud/Application.class

@@ -1,0 +1,9 @@
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/controller/ProductController.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/exception/ResourceNotFoundException.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/repository/ProductRepository.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/config/RabbitMQConfig.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/service/ProductServiceImpl.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/Application.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/publisher/RabbitMQProducer.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/service/ProductService.java
+/Users/abrahamhernandezlopez/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/springboot-mongodb-crud/src/main/java/com/crud/model/Product.java
