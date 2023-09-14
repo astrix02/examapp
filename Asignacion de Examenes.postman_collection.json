@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "3933047c-ca5b-40a5-be13-113577ce6ff7",
+		"name": "Asignacion de Examenes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3453450"
+	},
+	"item": [
+		{
+			"name": "Crear Examen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"tituloExamen\":\"Historia de Mexico\",\n    \"preguntas\":[\n        {\n            \"pregunta\":\"¿En que años tuvo lugar la guerra de los tres años en México?\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"1519 a 1521\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"1810 a 1821\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"1858 a 1861\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\"1877 a 1910\",\n                    \"correcta\":false\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"Se mantuvo como mano derecha de Benito Juarez y lo sucedió como presidente\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Juan Alvarez\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\" Sebastian Lerdo de Tejada\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\" Porfirio Díaz\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Félix de Zuloaga\",\n                    \"correcta\":false\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"Fue nombrado emperador del Segundo Imperio Mexicano, entre los años de 1863 y 1867\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Alejandro Magno\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Agustin de Iturbide\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Porfirio Díaz\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Maximiliano de Habsburgo\",\n                    \"correcta\":true\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"Indica cual fue el detonante de la Guerra de los tres años en México:\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"La promulgación de las Leyes de Reforma\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\"El primer presidente de origen indígena\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"La triple alianza de España-Reiuno Unido-Francia para cobrar la deuda\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"El Plan de Ayutla\",\n                    \"correcta\":false\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"Menciona quienes fueron los bandos participantes de la Guerra de Reforma:\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Mexicas y españoles\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Liberales y conservadores\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\"Aliados y El eje\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Villistas y Zapatistas\",\n                    \"correcta\":false\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"La ley que tenía como objetivos crear una clase media rural\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Ley Juarez\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Iglesias\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Ocampo\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Lerdo\",\n                    \"correcta\":true\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"Esta ley suprimió los tribunales especiales evadiendo los acostumbrados derechos de los militares y religiosos\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Ley Juarez\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\"Ley Iglesias\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Ocampo\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Lerdo\",\n                    \"correcta\":false\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"Ley sobre derechos y obvenciones parroquiales: prohibió el cobro de derechos, obvenciones parroquiales y diezmo a las clases pobres\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Ley Juarez\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Iglesias\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Ocampo\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\"Ley Lerdo\",\n                    \"correcta\":false\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"Por medio de esta ley se estableció el Registro del Estado Civil\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Ley Juarez\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Iglesias\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Ley Ocampo\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\"Ley Lerdo\",\n                    \"correcta\":false\n                }   \n            ]\n        },\n        {\n            \"pregunta\":\"¿Cuál fue el principal objetivo de los líderes liberales en la época de la reforma?\",\n            \"respuestas\":[\n                {\n                    \"respuesta\":\"Expulsar a los franceses\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"Derrotar a los conservadores\",\n                    \"correcta\":false\n                },\n                {\n                    \"respuesta\":\"La separación de la iglesia y el estado\",\n                    \"correcta\":true\n                },\n                {\n                    \"respuesta\":\"Sacar a Porfirio Díaz del poder\",\n                    \"correcta\":false\n                }   \n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/exam/crearEstudiante",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"exam",
+						"crearEstudiante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Estudiante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\":\"Abraham Hernandez\",\n    \"edad\":\"30\",\n    \"ciudad\":\"Queretaro\",\n    \"zonaHoraria\":\"America/Los_Angeles\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/exam/crearEstudiante",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"exam",
+						"crearEstudiante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Asignar Examen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"estudianteId\":1,\n    \"examenId\":28,\n    \"fecha\":\"2023-11-20T14:00:00\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/exam/asignarExamen",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"exam",
+						"asignarExamen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Responder Examen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"respuestas\": [\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 15,\n            \"respuestaPreguntaId\": 3\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 16,\n            \"respuestaPreguntaId\": 6\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 17,\n            \"respuestaPreguntaId\": 11\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 18,\n            \"respuestaPreguntaId\": 12\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 19,\n            \"respuestaPreguntaId\": 13\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 20,\n            \"respuestaPreguntaId\": 18\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 21,\n            \"respuestaPreguntaId\": 24\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 22,\n            \"respuestaPreguntaId\": 31\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 23,\n            \"respuestaPreguntaId\": 35\n        },\n        {\n            \"asignacionId\": 1,\n            \"preguntaId\": 24,\n            \"respuestaPreguntaId\": 36\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/exam/responderExamen",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"exam",
+						"responderExamen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CalificarExamen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"estudianteId\":1,\n    \"asignacionId\":1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/exam/calificarExamen",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"exam",
+						"calificarExamen"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
